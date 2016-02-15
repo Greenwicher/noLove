@@ -1,0 +1,83 @@
+<p><link rel="stylesheet" href="http://yandex.st/highlightjs/7.3/styles/idea.min.css">
+<script type="text/javascript" src="http://yandex.st/highlightjs/7.3/highlight.min.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Satisfy|Joti+One' rel='stylesheet' type='text/css'>
+<script src='assets/javascripts/jquery-10092eee563dec2dca82b77d2cf5a1ae.js'></script>
+<script src='assets/javascripts/garden-dec39de92840730bfcb31c7101e04f7d.js'></script>
+<script src='assets/javascripts/functions-8f4b1939920b25e15994488e0aba6a56.js'></script>
+<script src="assets/javascripts/functions_dev.js"></script>
+<link href=' assets/stylesheets/default-942bc4cc8fb8da53224a3e0aaa55a9eb.css' type='text/css' rel='stylesheet' media='all'>
+<style type="text/css">
+    @font-face {
+        font-family: digit;
+        src: url(assets/media/digital-7-mono.ttf) format(truetype);
+    }
+</style>
+<div id="content">
+  <audio id="sound" loop="loop">    
+        <source src="assets/media/Yanzi.mp3" type="audio/mpeg" />        
+        Your browser does not support HTML5 audio.
+    </audio>
+    <div id="code"></p>
+
+<pre><code>/* I am a boy named Weizhi. I don&#39;t have a girlfriend. */
+Boy i = new Boy(&quot;Weizhi&quot;);
+Girl u = null;
+
+/* These are festivals that matter to college students:
+   Valentine&#39;s Day, Qixi, Singles&#39; Day, Christmas Eve, 
+   New Year&#39;s Eve */
+Festival festivals[] = {...};
+
+/* When I am single... */
+while (u == null) { 
+    // I pretend to ignore these days 
+    for (Festival x : festivals) {
+        i.ignoreFestival(x);
+    }
+    i.watchMovies(); // I watched 300 movies...
+    i.watchBooks(); // I read 100 books...
+    i.cook();        // I made egg tart and lamb chop... 
+    i.play();      // I like to paly badminton and I'm a beginner of Go and chess...
+    // I push myself to grow during hard days
+    i.grow();   
+    // But I am still waiting for the special one
+    i.wait();       
+    // For I believe some day God will let u show up
+    u = God.assignFor(i);   
+}
+/* If we met and happened to like each other */
+if (u.like(i) &amp;&amp; i.like(u)) {   
+    // We&#39;d watch bad movies together and laugh hard    
+    i.watchMoviesWith(u);
+    // I&#39;d cook your favorites
+    i.cookFor(u);
+    // We&#39;d travel all around the world
+    i.travelWith(u);
+    // We&#39;d grow older and wiser together
+    i.growWith(u);
+    // We&#39;d love spending each festival together ever since
+    for (Festival x : festivals) {
+        i.enjoyFestivalWith(x, u);
+    }
+}
+</code></pre>
+
+<p></div>
+    <div id="animation">
+        <canvas id="garden"></canvas><br>
+        <div id="words">
+            <div id="messages">
+                I have been waiting for you for 
+                <div id="elapseClock"></div>
+            </div>
+            <div id="hope">
+                Looking forward to seeing you.<br/>
+                <div class="signature">- LIu Weizhi</div>
+            </div>
+        </div>
+    </div><br>
+</div>
+<div id="copyright">
+    Inspired by <a href="https://github.com/daisygao/noLove" title="Daisy NoLove Github project">Daisy NoLove project</a>.<br />
+    Copyright &copy 2016 <a href="http://greenwicher.com" title="Mount Greenwicher">LIU Weizhi</a>
+</div></p>
